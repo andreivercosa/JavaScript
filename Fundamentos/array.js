@@ -4,4 +4,13 @@ console.log(valores[4])
 
 valores[4] = 10
 console.log(valores)
-console.log(valores.length)//quantos elementos tem o arrayç;~;~/z
+console.log(valores.length)//quantos elementos tem o array
+
+valores.push({id: 3}, false, null, 'test')
+console.log(valores)
+
+console.log(valores.pop()) //retirar o ultimo elemento do arry
+delete valores[0] // deletar um elemento do array
+console.log(valores)
+
+console.log(typeof valores)//o array no javascript é um objeto
