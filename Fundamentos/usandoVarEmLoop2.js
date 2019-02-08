@@ -6,4 +6,4 @@ for(var i = 0; i<5; i++){
         console.log(i)
     })
 }
-funcs[2]()
+funcs[2]()//vai sempre retornar o ultimo valor de i
